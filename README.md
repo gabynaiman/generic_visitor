@@ -35,7 +35,6 @@ Or install it yourself as:
     end
 
     class AsHash < GenericVisitor::Visitor
-
       visitor_for Country do |country|
         {name: country.name}
       end
@@ -46,8 +45,10 @@ Or install it yourself as:
             country: city.country.as_hash
         }
       end
-
     end
+
+    city = City.new('Bs.As.', Country.new('Argentina'))
+    city.as_hash => {:name=>"Bs.As.", :country=>{:name=>"Argentina"}}
 
 ## Contributing
 
