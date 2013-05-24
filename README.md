@@ -1,5 +1,7 @@
 # GenericVisitor
 
+[![Gem Version](https://badge.fury.io/rb/generic_visitor.png)](https://rubygems.org/gems/generic_visitor)
+
 Ruby visitor pattern implementation
 
 Based on Aaron Patterson [post](http://blog.rubybestpractices.com/posts/aaronp/001_double_dispatch_dance.html)
